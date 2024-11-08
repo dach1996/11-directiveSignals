@@ -4,7 +4,7 @@ import { map, Observable, tap } from 'rxjs';
 import { SingleUserResponse, User } from '../interfaces/user-request.interface';
 
 @Injectable({ providedIn: 'root' })
-export class ServiceNameService {
+export class UserServiceService {
   public httpClient = inject(HttpClient);
   constructor() { }
 
