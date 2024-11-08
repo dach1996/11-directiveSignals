@@ -28,6 +28,8 @@
       (input)="onFieldUpdated('last_name', txtLastName.value)"
       [value]="user().last_name"
     />
+
+    <button class="btn btn-primary" (click)="modify()">Test</button>
   </div>
   <div class="col-6">
     <pre>{{ user() | json }}</pre>
